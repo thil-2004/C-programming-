@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int x; 
+    double a,b,p;
+    scanf("%d %lf %lf", &x, &a, &b);
+    p = (a - b) * x - 100.0;
+    printf("Number of copies sold:%d\nCost of each copy:%.0f\nCost spent by agency on each newspaper:%.0f\nThe profit obtained is Rs.%.2f\n", x,a,b,p);
+
+    return 0;
+}
