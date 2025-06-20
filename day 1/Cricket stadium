@@ -1,0 +1,15 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {int a,b,c;
+    scanf("%d%d",&a,&b);
+    c=a+b;
+    printf("%d\n%d",c*2,a*b);
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    return 0;
+}
