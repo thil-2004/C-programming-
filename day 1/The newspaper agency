@@ -1,0 +1,18 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+      int w, x, y;
+    scanf("%d %d %d", &w, &x, &y);
+    int a = w * x;
+    int b = w * y + 100;
+    int c = a - b;
+    printf("%d\n", c);
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    return 0;
+}
