@@ -1,0 +1,19 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {  float p, r, y;
+    float i, a, d, f;
+    scanf("%f %f %f", &p, &r, &y);
+    i = (p * r * y) / 100.0;
+    a = p + i;
+    d = i * 0.02;
+    f = a - d;
+    printf("%.2f\n%.2f\n%.2f\n%.2f\n", i,a,d,f);
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    return 0;
+}
