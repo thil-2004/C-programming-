@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    
+    int l,b;
+    float a,c,i;
+    scanf("%d%d",&l,&b);
+    a=l+b;
+    c=a*2;
+    i=l*b;
+    printf("Required length is %.2fm\nRequired quantity of carpet is %.2fsqm",c,i);   
+    return 0;
+}
